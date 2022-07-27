@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6AD9DB2891616800B93992 /* ImportantLocalPackage in Frameworks */ = {isa = PBXBuildFile; productRef = AE6AD9DA2891616800B93992 /* ImportantLocalPackage */; };
 		AEBEE5F628910E470006742C /* SPM_build_configurationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEE5F528910E470006742C /* SPM_build_configurationsApp.swift */; };
 		AEBEE5F828910E470006742C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEE5F728910E470006742C /* ContentView.swift */; };
 		AEBEE5FA28910E470006742C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBEE5F928910E470006742C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE6AD9D82891612F00B93992 /* ImportantLocalPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ImportantLocalPackage; path = LocalPackages/ImportantLocalPackage; sourceTree = "<group>"; };
 		AEBEE5F228910E470006742C /* SPM build configurations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPM build configurations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBEE5F528910E470006742C /* SPM_build_configurationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPM_build_configurationsApp.swift; sourceTree = "<group>"; };
 		AEBEE5F728910E470006742C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6AD9DB2891616800B93992 /* ImportantLocalPackage in Frameworks */,
 				AEBEE624289112160006742C /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,13 +76,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE6AD9D72891612F00B93992 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AE6AD9D82891612F00B93992 /* ImportantLocalPackage */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		AE6AD9D92891616800B93992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEBEE5E928910E470006742C = {
 			isa = PBXGroup;
 			children = (
+				AE6AD9D72891612F00B93992 /* Packages */,
 				AEBEE5F428910E470006742C /* SPM build configurations */,
 				AEBEE60528910E480006742C /* SPM build configurationsTests */,
 				AEBEE60F28910E480006742C /* SPM build configurationsUITests */,
 				AEBEE5F328910E470006742C /* Products */,
+				AE6AD9D92891616800B93992 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +167,7 @@
 			name = "SPM build configurations";
 			packageProductDependencies = (
 				AEBEE623289112160006742C /* Algorithms */,
+				AE6AD9DA2891616800B93992 /* ImportantLocalPackage */,
 			);
 			productName = "SPM build configurations";
 			productReference = AEBEE5F228910E470006742C /* SPM build configurations.app */;
@@ -607,6 +628,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		AE6AD9DA2891616800B93992 /* ImportantLocalPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImportantLocalPackage;
+		};
 		AEBEE623289112160006742C /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = AEBEE622289112160006742C /* XCRemoteSwiftPackageReference "swift-algorithms" */;
