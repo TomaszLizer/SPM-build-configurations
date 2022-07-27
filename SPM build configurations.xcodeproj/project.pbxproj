@@ -14,6 +14,7 @@
 		AEBEE60728910E480006742C /* SPM_build_configurationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEE60628910E480006742C /* SPM_build_configurationsTests.swift */; };
 		AEBEE61128910E480006742C /* SPM_build_configurationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEE61028910E480006742C /* SPM_build_configurationsUITests.swift */; };
 		AEBEE61328910E480006742C /* SPM_build_configurationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEE61228910E480006742C /* SPM_build_configurationsUITestsLaunchTests.swift */; };
+		AEBEE624289112160006742C /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = AEBEE623289112160006742C /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBEE624289112160006742C /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "SPM build configurations";
+			packageProductDependencies = (
+				AEBEE623289112160006742C /* Algorithms */,
+			);
 			productName = "SPM build configurations";
 			productReference = AEBEE5F228910E470006742C /* SPM build configurations.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = AEBEE5E928910E470006742C;
+			packageReferences = (
+				AEBEE622289112160006742C /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = AEBEE5F328910E470006742C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -586,6 +594,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEBEE622289112160006742C /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEBEE623289112160006742C /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEBEE622289112160006742C /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AEBEE5EA28910E470006742C /* Project object */;
 }
