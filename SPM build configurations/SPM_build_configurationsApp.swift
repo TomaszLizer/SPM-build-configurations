@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Algorithms
 
 @main
 struct SPM_build_configurationsApp: App {
