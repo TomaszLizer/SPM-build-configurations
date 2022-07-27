@@ -28,6 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ImportantLocalPackageTests"
+               BuildableName = "ImportantLocalPackageTests"
+               BlueprintName = "ImportantLocalPackageTests"
+               ReferencedContainer = "container:LocalPackages/ImportantLocalPackage">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AEBEE60128910E480006742C"
+               BuildableName = "SPM build configurationsTests.xctest"
+               BlueprintName = "SPM build configurationsTests"
+               ReferencedContainer = "container:SPM build configurations.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AEBEE60B28910E480006742C"
+               BuildableName = "SPM build configurationsUITests.xctest"
+               BlueprintName = "SPM build configurationsUITests"
+               ReferencedContainer = "container:SPM build configurations.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
