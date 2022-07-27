@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import ImportantLocalPackage
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        let text = ImportantLocalPackage().text
+        Text(text)
             .padding()
     }
 }
