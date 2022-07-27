@@ -324,7 +324,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AEBEE61428910E480006742C /* Staging */ = {
+		AEBEE61428910E480006742C /* Debug_Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,7 +361,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -384,7 +383,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Staging;
+			name = Debug_Staging;
 		};
 		AEBEE61528910E480006742C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -441,7 +440,7 @@
 			};
 			name = Release;
 		};
-		AEBEE61728910E480006742C /* Staging */ = {
+		AEBEE61728910E480006742C /* Debug_Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,7 +467,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Staging;
+			name = Debug_Staging;
 		};
 		AEBEE61828910E480006742C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -499,7 +498,7 @@
 			};
 			name = Release;
 		};
-		AEBEE61A28910E480006742C /* Staging */ = {
+		AEBEE61A28910E480006742C /* Debug_Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,7 +516,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPM build configurations.app/SPM build configurations";
 			};
-			name = Staging;
+			name = Debug_Staging;
 		};
 		AEBEE61B28910E480006742C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -539,7 +538,7 @@
 			};
 			name = Release;
 		};
-		AEBEE61D28910E480006742C /* Staging */ = {
+		AEBEE61D28910E480006742C /* Debug_Staging */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,7 +554,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "SPM build configurations";
 			};
-			name = Staging;
+			name = Debug_Staging;
 		};
 		AEBEE61E28910E480006742C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -581,7 +580,7 @@
 		AEBEE5ED28910E470006742C /* Build configuration list for PBXProject "SPM build configurations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEBEE61428910E480006742C /* Staging */,
+				AEBEE61428910E480006742C /* Debug_Staging */,
 				AEBEE61528910E480006742C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -590,7 +589,7 @@
 		AEBEE61628910E480006742C /* Build configuration list for PBXNativeTarget "SPM build configurations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEBEE61728910E480006742C /* Staging */,
+				AEBEE61728910E480006742C /* Debug_Staging */,
 				AEBEE61828910E480006742C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -599,7 +598,7 @@
 		AEBEE61928910E480006742C /* Build configuration list for PBXNativeTarget "SPM build configurationsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEBEE61A28910E480006742C /* Staging */,
+				AEBEE61A28910E480006742C /* Debug_Staging */,
 				AEBEE61B28910E480006742C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -608,7 +607,7 @@
 		AEBEE61C28910E480006742C /* Build configuration list for PBXNativeTarget "SPM build configurationsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AEBEE61D28910E480006742C /* Staging */,
+				AEBEE61D28910E480006742C /* Debug_Staging */,
 				AEBEE61E28910E480006742C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
